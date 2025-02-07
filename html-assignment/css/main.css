@@ -3,10 +3,6 @@ body {
     font-size: 18px;
 }
 
-header {
+header, footer {
     background-color: rgb(180, 223, 180);
-}
-
-footer {
-    background-color: rgb(80, 112, 80);
 }
