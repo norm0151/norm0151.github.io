@@ -18,3 +18,11 @@ header, footer {
 #hobbies {
     list-style-type: square;
 }
+
+/* need to change the background to odd hobby list */
+
+.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
