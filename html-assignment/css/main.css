@@ -6,3 +6,7 @@ body {
 header, footer {
     background-color: rgb(180, 223, 180);
 }
+
+.site-title {
+    color:darkgreen;
+}
