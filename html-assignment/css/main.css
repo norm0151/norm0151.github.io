@@ -19,7 +19,7 @@ header, footer {
     list-style-type: square;
 }
 
-.hobbies>li:nth-child(1){
+.hobbies>li:nth-child(odd){
     background-color: pink;
 }
 
