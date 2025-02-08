@@ -19,7 +19,9 @@ header, footer {
     list-style-type: square;
 }
 
-
+.hobbies>li:nth-child(1){
+    background-color: pink;
+}
 
 .no-bullets {
     list-style-type: none;
