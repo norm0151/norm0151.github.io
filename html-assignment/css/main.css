@@ -29,5 +29,6 @@ header, footer {
 
 a {
     text-decoration: none;
-    background-color: rgb(255, 228, 178);
+    background-color: rgb(218, 255, 213);
+    border-style: double;
 }
