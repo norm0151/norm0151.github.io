@@ -48,6 +48,27 @@ table {
 	border-spacing: 0;
 }
 
+.wrapper {
+	background-color: #d4e9e7;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+	text-align: center;
+	position: relative;
+}
+
+.starfish {
+	position: absolute;
+}
+
+.title {
+	color: white;
+
+}
+
+
+
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
 /* position title over image */
