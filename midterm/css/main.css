@@ -75,7 +75,31 @@ html {
 	bottom: 207px;
 }
 
+nav {
+	text-align: center;
+}
 
+nav li{
+	font-size: 40px;
+	display: inline;
+	position: relative;
+	bottom: 70px;
+	padding: 150px
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.thestory {
+
+}
 
 
 /* change font to arial for whole body/header */
