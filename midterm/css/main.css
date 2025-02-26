@@ -53,6 +53,7 @@ html {
 	 overflow-x: hidden; 
 }
 
+
 .wrapper {
 	background-color: #d4e9e7;
 	font-family: Arial, Helvetica, sans-serif;
@@ -156,7 +157,7 @@ a:visited {
 }
 
 .facts {
-	font-size: 38px;
+	font-size: 34px;
 	position:relative;
 	bottom: 50px;
 	padding: 0px 0px 0px 10px;
@@ -167,6 +168,19 @@ a:visited {
 	padding: 0px 0px 0px 25px;
 	position: relative;
 	bottom: 35px;
+}
+
+#contact {
+	font-size: 34px;
+	padding: 0px 0px 0px 10px;
+	position: relative;
+	bottom: 0px;
+}
+
+.border {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
