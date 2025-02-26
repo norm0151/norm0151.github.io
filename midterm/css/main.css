@@ -129,7 +129,7 @@ a:visited {
 	font-size: 38px;
 	position: relative;
 	bottom: 100px;
-
+	padding: 0px 0px 0px 10px;
 }
 
 .thestarfish {
@@ -139,13 +139,14 @@ a:visited {
 	bottom: 80px;
 	float: left;
 	margin: 0px 20px 20px 0px;
+	padding: 0px 0px 0px 10px;
 }
 
 .text {
 	position: relative;
 	 line-height: 1.5rem;
 	 bottom: 80px;
-	 padding: 0px 50px 0px 0px;
+	 padding: 0px 40px 0px 10px;
 }
 
 .clearfix:after {
@@ -154,6 +155,16 @@ a:visited {
     clear:both
 }
 
+.facts {
+	font-size: 38px;
+	position:relative;
+	bottom: 50px;
+	padding: 0px 0px 0px 10px;
+}
+
+.thefacts {
+	list-style-type: disc;
+}
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
 /* position title over image */
