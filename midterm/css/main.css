@@ -48,20 +48,33 @@ table {
 	border-spacing: 0;
 }
 
+html {
+	background-color: #aad4cf;
+}
+
 .wrapper {
 	background-color: #d4e9e7;
 	font-family: Arial, Helvetica, sans-serif;
-}
-
-.header {
-	text-align: center;
-	position: relative;
-	color: white;
+	width: 1500px;
+	margin: auto;
 }
 
 .starfish {
-	position: absolute;
+	width: 1500px;
+	position: static;
+	text-align: center;
+	left: 210px;
 }
+
+.title {
+	color: white;
+	font-size: 100px;
+	text-align: center;
+	z-index: 1px;
+	position: relative;
+	bottom: 207px;
+}
+
 
 
 
