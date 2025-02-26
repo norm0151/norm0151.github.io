@@ -164,6 +164,9 @@ a:visited {
 
 .thefacts {
 	list-style-type: disc;
+	padding: 0px 0px 0px 25px;
+	position: relative;
+	bottom: 35px;
 }
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
