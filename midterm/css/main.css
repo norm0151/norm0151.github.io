@@ -56,15 +56,11 @@ table {
 .header {
 	text-align: center;
 	position: relative;
+	color: white;
 }
 
 .starfish {
 	position: absolute;
-}
-
-.title {
-	color: white;
-
 }
 
 
