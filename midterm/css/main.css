@@ -82,11 +82,12 @@ nav {
 }
 
 nav li{
-	font-size: 40px;
-	display: inline;
+	font-size: 30px;
+	display: inline-block;
 	position: relative;
-	bottom: 70px;
-	padding: 200px;
+	bottom: 90px;
+	padding: 80px;
+	margin: 20px;
 }
 
 a:link {
@@ -99,6 +100,31 @@ a:visited {
 	color: black;
 }
 
+.thestory {
+	border-style: none;
+	border-width: 1px;
+	border-top: none;
+	border-bottom: none;
+	padding: 20px 80px 20px 80px;
+}
+
+.home {
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	padding: 20px 80px 20px 80px;
+}
+
+.contact {
+	border-style: solid;
+	border-width: 1px;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	padding: 20px 50px 20px 80px;
+}
 
 
 /* change font to arial for whole body/header */
