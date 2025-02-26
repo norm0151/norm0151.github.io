@@ -126,6 +126,19 @@ a:visited {
 	padding: 20px 50px 20px 80px;
 }
 
+#story {
+	font-size: 50px;
+	position: relative;
+	bottom: 50px;
+}
+
+.thestarfish {
+	width: 360px;
+	height: auto;
+	position: relative;
+	bottom: 20px;
+	float: left;
+}
 
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
