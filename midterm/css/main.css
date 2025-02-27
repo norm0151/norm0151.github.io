@@ -184,6 +184,10 @@ input, label {
 	width: 990px;
 }
 
+#message {
+	height: 100px;
+}
+
 .clearfix:after {
     content: "";
     display: block;
