@@ -77,7 +77,7 @@ html {
 	bottom: 144px;
 }
 
-nav {
+nav ul{
 	text-align: center;
 	position: relative;
 }
@@ -105,7 +105,7 @@ a:visited {
 	border-width: 1px;
 	border-top: none;
 	border-bottom: none;
-	padding: 20px 60px 20px 60px;
+	padding: 0px 60px 0px 60px;
 }
 
 .home {
