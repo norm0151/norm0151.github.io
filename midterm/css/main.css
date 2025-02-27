@@ -150,12 +150,6 @@ a:visited {
 	 padding: 0px 40px 0px 10px;
 }
 
-.clearfix:after {
-    content: "";
-    display: block;
-    clear:both
-}
-
 .facts {
 	font-size: 34px;
 	position:relative;
@@ -187,7 +181,33 @@ a:visited {
 
 input, label {
 	display: block;
+	width: 990px;
 }
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear:both
+}
+
+.name {
+	position: relative;
+	padding: 30px 0px 15px 15px;
+	line-height: 2rem;
+}
+
+.email {
+	position: relative;
+	padding: 0px 0px 15px 15px;
+	line-height: 1.5rem;
+}
+
+.message {
+	position: relative;
+	padding: 0px 0px 15px 15px;
+	line-height: 1.5rem;
+}
+
 
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
