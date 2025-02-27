@@ -44,36 +44,45 @@
       </ul>
     </div>
     <!-- h3 'contact to learn more' -->
-      <h2 id="contact">Contact to learn more</h2>
-    <div class="border">
+    <h2 id="contact">Contact to learn more</h2>
+
+     <div id="forms" class="border">
+    <div>
       <!-- 'your name' form -->
       <form class="name" action="input.html" method="GET">
-        <label for="name">Your Name</label>
-        <input id="name">
+        <label class="block" for="name">Your Name</label>
+        <input class="block" id="name">
       </form>
       <!-- 'your email' form -->
       <form class="email" action="input.html" method="GET">
-        <label for="fullemail" >Your Email</label>
-        <input id="fullemail">
+        <label class="block" for="fullemail" >Your Email</label>
+        <input class="block" id="fullemail">
       </form>
       <!-- 'your message' form -->
       <form class="message" action="input.html" method="GET">
-        <label for="message">Your Message</label>
-        <input id="message">
+        <label class="block" for="message">Your Message</label>
+        <input class="block" id="message">
       </form>
+    </div>
+
+
       <!-- multiple options form -->
-      <p>Would you like to visit the starfish?</p>
-      <form action="input.html" method="GET">
+       <div id="multiple">
+      <p class="would">Would you like to visit the starfish?</p>
+      <form class="options" action="input.html" method="GET">
         <label for="alot">Yes</label>
         <input type="radio" id="alot" name="visit" value="yes">
         <label for="notalot">No</label>
         <input type="radio" id="notalot" name="visit" value="no">
         <label for="undecisive">Maybe</label>
         <input type="radio" id="undecisive" name="visit" value="maybe">
+      </form>
         <br>
         <!-- 'send' button -->
+         <form>
         <button type="submit">SEND</button>
       </form>
+      </div>
     </div>
     <!-- footer, copyright info -->
     <div>

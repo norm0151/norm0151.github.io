@@ -179,19 +179,13 @@ a:visited {
 	position: relative;
 }
 
-input, label {
+.block {
 	display: block;
 	width: 990px;
 }
 
 #message {
 	height: 100px;
-}
-
-.clearfix:after {
-    content: "";
-    display: block;
-    clear:both
 }
 
 .name {
@@ -212,6 +206,22 @@ input, label {
 	line-height: 1.5rem;
 }
 
+.clearfix:after {
+    content: "";
+    display: block;
+    clear:both
+}
+
+.would {
+	font-size: 20px;
+	position: relative;
+	padding: 8px 0px 12px 15px;
+}
+
+.options {
+	position: relative;
+	padding: 0px 0px 0px 15px;
+}
 
 /* change font to arial for whole body/header */
 /* wrapper color #d4e9e7, background color #aad4cf */
