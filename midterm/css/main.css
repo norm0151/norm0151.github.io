@@ -48,12 +48,12 @@ table {
 	border-spacing: 0;
 }
 
+/* background color */
 html {
 	background-color: #aad4cf;
-	 overflow-x: hidden; 
 }
 
-
+/* add wrapper and change font, colour, width */
 .wrapper {
 	background-color: #d4e9e7;
 	font-family: Arial, Helvetica, sans-serif;
@@ -62,6 +62,7 @@ html {
 	position: relative;
 }
 
+/* center image/text, make text white and large, place ontop image */
 .starfish {
 	width: 1050px;
 	position: relative;
@@ -77,6 +78,7 @@ html {
 	bottom: 144px;
 }
 
+/* make nav inline with border on two sides */
 nav ul{
 	text-align: center;
 	position: relative;
@@ -125,7 +127,7 @@ a:visited {
 	border-bottom: none;
 	padding: 20px 50px 20px 80px;
 }
-
+/* wrap text around image on right side */
 #story {
 	font-size: 38px;
 	position: relative;
@@ -143,6 +145,13 @@ a:visited {
 	padding: 0px 0px 0px 10px;
 }
 
+/* clear float after image */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear:both
+}
+
 .text {
 	position: relative;
 	 line-height: 1.5rem;
@@ -150,6 +159,7 @@ a:visited {
 	 padding: 0px 40px 0px 10px;
 }
 
+/* add bullet points */
 .facts {
 	font-size: 34px;
 	position:relative;
@@ -171,6 +181,7 @@ a:visited {
 	bottom: 0px;
 }
 
+/* add border over forms/button, place text over form, widen form */
 .border {
 	border-style: solid;
 	border-color: black;
@@ -206,12 +217,6 @@ a:visited {
 	line-height: 1.5rem;
 }
 
-.clearfix:after {
-    content: "";
-    display: block;
-    clear:both
-}
-
 .would {
 	font-size: 20px;
 	position: relative;
@@ -223,6 +228,7 @@ a:visited {
 	padding: 0px 0px 0px 15px;
 }
 
+/* style button adding border and background color */
 button {
 	font-size: 12px;
 	padding: 10px 10px;
@@ -233,13 +239,7 @@ button {
 	border-width: 1px;
 }
 
+/* move copyright to right */
 .footer{
 	padding: 30px 0px 30px 900px;
 }
-
-/* change font to arial for whole body/header */
-/* wrapper color #d4e9e7, background color #aad4cf */
-/* position title over image */
-/* float nav in a row, borders on 'story' left right sides */
-/* wrap body of text around starfish image, put clearfix on image */
- /* black 1pt border around forms */
