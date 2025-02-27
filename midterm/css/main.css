@@ -73,7 +73,7 @@ html {
 	color: white;
 	font-size: 70px;
 	text-align: center;
-	z-index: 1px;
+	z-index: 1;
 	position: relative;
 	bottom: 144px;
 }
