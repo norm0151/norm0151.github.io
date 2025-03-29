@@ -11,13 +11,14 @@
     <!-- navigation is going to include, nav and search form with logo in top left corner -->
     <img src="images/logo.png" alt="logo showing three stars">
     <!-- nav will be in a vertical line and then switch to horizontal in desktop vers -->
+     <!-- li will be linked to on page services -->
     <nav>
       <ul>
         <li>Home</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Team</li>
-        <li>Contact</li>
+        <li><a href="#aboutus">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <!-- form with search being already typed in with magnifying glass icon on right side which will switch to being on the right side of nav on desktop vers. -->
       <form action="#" method="GET">
@@ -37,14 +38,14 @@
     </section>
     <!-- about us section will have an image ontop of text in mobile and switch to being on left side in desktop vers -->
     <div class="content">
-      <section class="aboutus">
+      <section id="aboutus">
         <img src="images/about-us.jpg" alt="image of inside a building with a ping pong table">
         <h2>About Us</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore rerum explicabo reiciendis, dolor ullam fuga. Hic quaerat laboriosam ipsam ea? Minus esse, expedita aperiam quo dignissimos atque accusantium obcaecati?</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet in id quia cum sapiente architecto, voluptatem asperiores vel iusto placeat deleniti voluptate, nihil, assumenda aut minus quaerat ratione voluptates laborum.</p>
       </section>
       <!-- service section will include all 5 services with image ontop of text in mobile ver. with button underneath, apply grids to this section for desktop ver. -->
-      <section class="services">
+      <section id="services">
         <h2>Our Services</h2>
         <!-- all service buttons will have solid white caret to right -->
         <section class="digtransform">
@@ -92,7 +93,7 @@
         <i class="fa-solid fa-caret-right"></i>
       </section>
       <!-- our team section will consist of each image/text being flexbox to control it better in desktop ver. -->
-      <section class="team">
+      <section id="team">
         <h2>Our Team</h2>
         <div class="john">
           <img src="images/john.jpg" alt="image of john doe">
@@ -111,7 +112,7 @@
       <!-- contact section  -->
       <!-- this will include 3 forms and a send button, table of hours of operation, embedded location -->
       <!-- desktop vers. will have embedded location on right side of forms, table below -->
-      <section class="contact">
+      <section id="contact">
         <h2>Contact Us</h2>
         <!-- forms will have text above form and message form box will be extended -->
         <div class="message">
