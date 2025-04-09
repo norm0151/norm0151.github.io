@@ -135,14 +135,14 @@ nav > .fa-solid {
 h1 {
 	font-weight: bold;
 	color: white;
-	margin: 0px 0px 0px 3px;
+	margin: 0px 0px 0px 10px;
 	font-size: 72px;
 	padding: 0px 0px 20px 0px;
 	line-height: 1.5;
 }
 
 .lorem {
-	margin: 0px 50px 0px 3px;
+	margin: 0px 50px 0px 10px;
 	font-size: 14px;
 	line-height: 1.4;
 }
@@ -154,7 +154,7 @@ h1 {
 	font-size: 20px;
 	width: 25%;
 	text-align: center;
-	margin: 15px 0px 0px 3px;
+	margin: 15px 0px 0px 10px;
 	padding: 30px 65px 30px 15px;
 }
 
@@ -172,13 +172,25 @@ h1 {
 }
 
 #aboutus img {
-	width: 100%;
+	width: 700px;
 	margin: 10px;
 }
 
 .about {
 	margin: 10px;
 }
+
+.about > h2 {
+	font-size: 45px;	
+	font-weight: bold;
+	margin: 25px 0px 25px 0px;
+}
+
+
+
+
+
+
 
 /* our services */
 
