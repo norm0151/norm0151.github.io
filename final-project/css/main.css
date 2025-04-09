@@ -120,12 +120,13 @@ nav > .fa-solid {
 
 .heading {
 	position: relative;
+	color: white;
 }
 
 .background {
 	position: relative;
-	background-color: rgba(0, 0, 0, 0.5);
-	bottom: 480px;
+	background-color: rgba(0, 0, 0, 0.6);
+	bottom: 539px;
 	padding: 50px 0px 100px 10px;
 }
 
@@ -133,13 +134,16 @@ nav > .fa-solid {
 h1 {
 	font-weight: bold;
 	color: white;
-	margin: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 3px;
 	font-size: 70px;
-	padding: 0px 0px 0px 0px;
+	padding: 0px 0px 25px 0px;
+	line-height: 1.5;
 }
 
-.heading {
-	color: white;
+.lorem {
+	margin: 0px 0px 0px 3px;
+	font-size: 15px;
+	line-height: 1.3;
 }
 
 
