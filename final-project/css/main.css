@@ -112,7 +112,7 @@ nav > .fa-solid {
 
 /* image needs to be sized down to view full pic */
 
-.heading > img {
+.heading img {
 	width: 810px;
 	position: relative;
 	right: 50px;
@@ -126,9 +126,9 @@ nav > .fa-solid {
 .background {
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.6);
-	bottom: 10px;
-	padding: 50px 0px 100px 10px;
-	height: 380px;
+	bottom: 85px;
+	padding: 50px 0px 15px 10px;
+	height: 390px;
 }
 
 /* make changes to text */
@@ -154,7 +154,14 @@ h1 {
 	width: 25%;
 	text-align: center;
 	margin: 15px 0px 0px 3px;
-	padding: 20px 5px 10px 5px;
+	padding: 30px 65px 30px 15px;
+}
+
+.heading .fa-solid {
+	position: absolute;
+	font-size: 35px;
+	left: 215px;
+	bottom: 36px;
 }
 
 /* about us */
