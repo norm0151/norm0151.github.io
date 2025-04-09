@@ -166,6 +166,19 @@ h1 {
 }
 
 /* about us */
+/* background needs to be beige, full photo */
+#aboutus {
+	background-color: #ffe6ac;
+}
+
+#aboutus img {
+	width: 100%;
+	margin: 10px;
+}
+
+.about {
+	margin: 10px;
+}
 
 /* our services */
 
