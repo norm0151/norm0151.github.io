@@ -50,7 +50,9 @@ table {
 
 /* start with mobile ver. first */
 /* open sans font will be applied to all */
-
+.wrapper {
+    font-family: "Open Sans", sans-serif;
+}
 /* navigation */
 /* nav will include 'home' in same orange as logo, nav will be centered in vertically, search bar will stretch across with magnifying glass on right side */
 
