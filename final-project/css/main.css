@@ -57,6 +57,14 @@ table {
 /* navigation */
 /* nav will include 'home' in same orange as logo, nav will be centered in vertically, search bar will stretch across with magnifying glass on right side */
 
+nav {
+    background-color: #222;
+}
+
+.logo {
+    margin: 10px;
+    position: absolute;
+}
 
 /* title */
 
