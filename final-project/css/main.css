@@ -92,7 +92,21 @@ a {
 }
 
 /* search form needs to be wide with magnif. glass beside in orange */
+input {
+	float: left;
+	height: 30px;
+	margin: 0px 0px 0px 10px;
+	width: 656px;
+}
 
+.fa-solid {
+	font-size: 24px;
+	float: right;
+	color: #c78c06;
+	border: solid #c78c06 1px;
+	padding: 5px;
+	margin: 0px 10px 10px 0px;
+}
 
 
 
