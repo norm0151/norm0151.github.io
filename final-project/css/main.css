@@ -63,6 +63,14 @@ nav {
     text-align: center;
 }
 
+li {
+	margin: 20px 0px 40px 0px;
+}
+
+li:nth-child(5){
+	margin: 0px 0px 20px 0px;
+}
+
 a:link {
 	text-decoration: none;
 }
@@ -76,6 +84,7 @@ a {
     position: absolute;
 }
 
+/* 'home' needs a background color of orange */
 .home {
     background-color: #c78c06;
 	margin: 15px 15px 0px 15px;
