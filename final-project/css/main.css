@@ -1,3 +1,4 @@
+/* reset css */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,3 +47,28 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* start with mobile ver. first */
+/* open sans font will be applied to all */
+
+/* navigation */
+/* nav will include 'home' in same orange as logo, nav will be centered in vertically, search bar will stretch across with magnifying glass on right side */
+
+
+/* title */
+
+/* about us */
+
+/* our services */
+
+/* our vision */
+
+/* our team */
+
+/* contact us */
+
+/* hours of operation */
+
+/* location */
+
+/* footer */
