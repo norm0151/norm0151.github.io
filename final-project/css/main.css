@@ -99,7 +99,7 @@ input {
 	width: 656px;
 }
 
-.fa-solid {
+nav > .fa-solid {
 	font-size: 24px;
 	float: right;
 	color: #c78c06;
@@ -108,15 +108,15 @@ input {
 	margin: 0px 10px 10px 0px;
 }
 
-
-
-
-
-
-
-
-
 /* title */
+
+/* image needs to be sized down to view full pic */
+.heading > img {
+	width: 100%;
+	height: auto;
+}
+
+
 
 /* about us */
 
