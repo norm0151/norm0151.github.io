@@ -59,11 +59,20 @@ table {
 
 nav {
     background-color: #222;
+    height: 500px;
+    text-align: center;
 }
+
+
 
 .logo {
     margin: 10px;
     position: absolute;
+}
+
+.home {
+    background-color: #c78c06;
+    padding: 250px 10px 10px 10px;
 }
 
 /* title */
