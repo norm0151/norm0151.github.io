@@ -64,14 +64,17 @@ nav {
 }
 
 .logo {
-    margin: 10px;
+    margin: 15px 0px 0px 15px;
     position: absolute;
 }
 
 .home {
     background-color: #c78c06;
-	margin: 10px;
+	margin: 15px 15px 0px 15px;
+    padding: 150px 0px 20px 0px;
 }
+
+
 
 
 /* title */
