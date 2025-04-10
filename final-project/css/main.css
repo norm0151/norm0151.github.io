@@ -504,15 +504,31 @@ h1 {
 #team h2 {
 	font-weight: bold;
 	font-size: 50px;
+	padding: 40px 0px 20px 0px;
 }
 
+/* john does section */
+.john {
+	background-color: #ffe6ac;
+	margin: 0px 0px 15px 0px;
+}
 
+.john img {
+	width: 100%;
+}
 
+.john h3 {
+	padding: 0px 0px 0px 10px;
+}
 
+.john p {
+	padding: 0px 0px 0px 10px;
+}
 
-
-
-
+.john hr {
+	margin: 0px 10px 0px 10px;
+	border: 1px solid #c78c06;
+}
 
 /* contact us */
 
