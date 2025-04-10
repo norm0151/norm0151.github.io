@@ -53,11 +53,16 @@ table {
 /* open sans font will be applied to all */
 .container {
     font-family: "Open Sans", sans-serif;
-	background-color: #222;
+	/* background-color: #222; */
 }
 
 /* navigation */
 /* nav will include 'home' in same orange as logo, nav will be centered in vertically, search bar will stretch across with magnifying glass on right side */
+
+.wrapper {
+	padding: 1px 0px 0px 0px;
+	background-color: #222;
+}
 
 nav {
     text-align: center;
@@ -488,10 +493,13 @@ h1 {
 }
 
 /* our team */
+#team {
+	margin: 0px 15px 0px 15px;
+}
 
-
-
-
+#team h2 {
+	font-size: 50px;
+}
 
 
 
