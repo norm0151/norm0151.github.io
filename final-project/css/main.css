@@ -96,7 +96,7 @@ input {
 	float: left;
 	height: 30px;
 	margin: 0px 0px 15px 15px;
-	width: 686px;
+	width: 685px;
 	font-size: 17px;
 }
 
@@ -436,10 +436,9 @@ h1 {
 .vision img {
 	position: relative;
 	margin: 670px 0px 0px 0px;
-	height: 270px;
-	width: 760px;
+	height: 280px;
+	width: 759px;
 	object-fit: cover;
-
 }
 
 .vision {
@@ -452,14 +451,14 @@ h1 {
 	font-size: 30px;
 	position: relative;
 	margin: 0px 0px 0px 15px;
-	bottom: 230px;
+	bottom: 245px;
 }
 
 .vision p {
 	position: relative;
-	bottom: 210px;
+	bottom: 225px;
 	color: white;
-	line-height: 1.4;
+	line-height: 1.6;
 	font-size: 14px;
 	margin: 0px 0px 0px 15px;
 }
@@ -467,9 +466,9 @@ h1 {
 /* learn more button will be black with orange border */
 .button6 {
 	position: relative;
-	background-color: #222;
+	background-color: rgba(0, 0, 0, 0.5);
 	border: solid #c78c06 1px;
-	bottom: 195px;
+	bottom: 210px;
 	margin: 0px 520px 15px 15px;
 	padding: 0px 0px 25px 0px;
 }
@@ -488,18 +487,19 @@ h1 {
 	padding: 0px 0px 0px 160px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* our team */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* contact us */
 
