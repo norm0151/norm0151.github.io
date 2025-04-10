@@ -51,7 +51,7 @@ table {
 /* start with mobile ver. first */
 /* #c78c06 is orange #ffe6ac is beige #222 is black */
 /* open sans font will be applied to all */
-.wrapper {
+.container {
     font-family: "Open Sans", sans-serif;
 	background-color: #222;
 }
@@ -213,7 +213,7 @@ h1 {
 
 /* digital transformation section */
 .digtransform {
-	margin: 0px 15px 10px 15px;
+	margin: 0px 15px 15px 15px;
 	background-color: #ffe6ac;
 	padding: 0px 0px 15px 0px;
 }
@@ -257,7 +257,7 @@ h1 {
 
 /* marketing section */
 .marketing {
-	margin: 0px 15px 10px 15px;
+	margin: 0px 15px 15px 15px;
 	background-color: #ffe6ac;
 	padding: 0px 0px 15px 0px;
 }
@@ -301,7 +301,7 @@ h1 {
 
 /* video production section */
 .vidprod {
-	margin: 0px 15px 10px 15px;
+	margin: 0px 15px 15px 15px;
 	background-color: #ffe6ac;
 	padding: 0px 0px 15px 0px;
 }
@@ -345,7 +345,7 @@ h1 {
 
 /* web development section */
 .webdev {
-	margin: 0px 15px 10px 15px;
+	margin: 0px 15px 15px 15px;
 	background-color: #ffe6ac;
 	padding: 0px 0px 15px 0px;
 }
@@ -389,7 +389,7 @@ h1 {
 
 /* print section */
 .print {
-	margin: 0px 15px 10px 15px;
+	margin: 0px 15px 15px 15px;
 	background-color: #ffe6ac;
 	padding: 0px 0px 15px 0px;
 }
@@ -431,20 +431,73 @@ h1 {
 	font-size: 35px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* our vision */
+/* text infront of image with learn more button */
+.vision img {
+	position: relative;
+	margin: 670px 0px 0px 0px;
+	height: 270px;
+	width: 760px;
+	object-fit: cover;
+
+}
+
+.vision {
+	background-color: white;
+}
+
+.vision h2 {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	position: relative;
+	margin: 0px 0px 0px 15px;
+	bottom: 230px;
+}
+
+.vision p {
+	position: relative;
+	bottom: 210px;
+	color: white;
+	line-height: 1.4;
+	font-size: 14px;
+	margin: 0px 0px 0px 15px;
+}
+
+/* learn more button will be black with orange border */
+.button6 {
+	position: relative;
+	background-color: #222;
+	border: solid #c78c06 1px;
+	bottom: 195px;
+	margin: 0px 520px 15px 15px;
+	padding: 0px 0px 25px 0px;
+}
+
+.button6 p {
+	top: 30px;
+	font-size: 20px;
+	color: white;
+	padding: 0px 0px 0px 15px;
+}
+
+.button6 i {
+	position: relative;
+	color: white;
+	font-size: 35px;
+	padding: 0px 0px 0px 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* our team */
 
