@@ -568,8 +568,25 @@ h1 {
 	border: 1px solid #c78c06;
 }
 
-
 /* contact us */
+#contact {
+	margin: 0px 15px 0px 15px;
+}
+
+#contact > h2{
+	position: relative;
+	bottom: 130px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+
+
+
+
+
+
+
 
 /* hours of operation */
 
