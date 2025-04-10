@@ -511,6 +511,7 @@ h1 {
 .john {
 	background-color: #ffe6ac;
 	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 25px 0px;
 }
 
 .john img {
@@ -518,17 +519,55 @@ h1 {
 }
 
 .john h3 {
-	padding: 0px 0px 0px 10px;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 0px 0px 15px;
+}
+
+.ownertitle {
+	font-weight: bold;
+	line-height: 1.5;
 }
 
 .john p {
-	padding: 0px 0px 0px 10px;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 10px 0px 0px 15px;
 }
 
 .john hr {
-	margin: 0px 10px 0px 10px;
+	margin: 0px 10px 1px 15px;
 	border: 1px solid #c78c06;
 }
+
+/* bobs section */
+.bob {
+	background-color: #ffe6ac;
+	margin: 0px 0px 15px 0px;
+	padding: 0px 0px 25px 0px;
+}
+
+.bob img {
+	width: 100%;
+}
+
+.bob h3 {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 0px 0px 15px;
+}
+
+.bob p {
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 10px 0px 0px 15px;
+}
+
+.bob hr {
+	margin: 0px 10px 1px 15px;
+	border: 1px solid #c78c06;
+}
+
 
 /* contact us */
 
