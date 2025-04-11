@@ -678,7 +678,14 @@ tbody td{
 footer {
 	background-color: #222;
 	color: #c78c06;
-	padding: 50px 0px 15px 15px;
+	padding: 25px 0px 15px 15px;
+	font-size: 15px;
 }
 
 .copyright {
+	line-height: 1.9;
+}
+
+footer p {
+	padding: 8px 0px 0px 0px;
+}
