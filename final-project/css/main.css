@@ -53,7 +53,8 @@ table {
 /* open sans font will be applied to all */
 .container {
     font-family: "Open Sans", sans-serif;
-	/* background-color: #222; */
+	max-width: 759px;
+	align-content: center;
 }
 
 /* navigation */
@@ -100,8 +101,8 @@ a {
 input {
 	float: left;
 	height: 30px;
-	margin: 0px 0px 15px 15px;
-	width: 685px;
+	margin: 15px 0px 15px 15px;
+	min-width: 685px;
 	font-size: 17px;
 }
 
@@ -177,6 +178,7 @@ h1 {
 	position: absolute;
 	top: 1069px;
 	background-color: #ffe6ac;
+	max-width: 759px;
 }
 
 #aboutus img {
@@ -569,7 +571,7 @@ h1 {
 }
 
 /* contact us */
-#contact {
+#contact > h2, label{
 	margin: 0px 15px 0px 15px;
 }
 
@@ -580,12 +582,32 @@ h1 {
 	font-size: 50px;
 }
 
+/* form positioning */
+/* 'message' form will have a bigger form height than the rest */
+.message h2 {
+	margin: 0px 0px 0px 15px;
+	position: relative;
+	bottom: 90px;
+	font-weight: bold;
+	font-size: 33px;
+}
 
+.message label {
+	position: relative;
+	bottom: 70px;
+	font-size: 15px;
+}
 
+.message input {
+	position: relative;
+	bottom: 65px;
+	width: 721px;
+	margin: 0px 0px 15px 15px;
+}
 
-
-
-
+#message {
+	height: 140px;
+}
 
 
 /* hours of operation */
