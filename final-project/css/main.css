@@ -68,10 +68,11 @@ table {
 
 nav {
     text-align: center;
+	font-size: 18px;
 }
 
 li {
-	margin: 20px 0px 35px 0px;
+	margin: 20px 0px 45px 0px;
 }
 
 li:nth-child(5){
@@ -95,25 +96,29 @@ a {
 .home {
     background-color: #c78c06;
 	margin: 15px 15px 0px 15px;
-    padding: 150px 0px 20px 0px;
+    padding: 150px 0px 30px 0px;
 }
 
 /* search form needs to be wide with magnif. glass beside in orange */
 input {
 	float: left;
-	height: 30px;
-	margin: 15px 0px 15px 15px;
-	min-width: 685px;
+	position: relative;
+	bottom: 9px;
+	height: 35px;
+	margin: 15px 0px 0px 15px;
+	min-width: 680px;
 	font-size: 17px;
 }
 
 nav > .fa-solid {
-	font-size: 24px;
+	font-size: 25px;
 	float: right;
 	color: #c78c06;
 	border: solid #c78c06 1px;
-	padding: 5px;
+	padding: 7px;
 	margin: 0px 15px 15px 0px;
+	position: relative;
+	bottom: 12px
 }
 
 /* title */
@@ -124,6 +129,7 @@ nav > .fa-solid {
 	width: 810px;
 	position: relative;
 	right: 50px;
+	bottom: 14px;
 }
 
 .heading {
@@ -177,9 +183,10 @@ h1 {
 /* background needs to be beige, full photo */
 #aboutus {
 	position: absolute;
-	top: 1069px;
+	top: 1080px;
 	background-color: #ffe6ac;
 	max-width: 759px;
+	margin: 48px 0px 0px 0px;
 }
 
 #aboutus img {
@@ -688,4 +695,13 @@ footer {
 
 footer p {
 	padding: 8px 0px 0px 0px;
+}
+
+/* desktop vers. */
+/* max width of container needs to be 1200px, mid width media query will be 760px and up */
+@media screen and (mid-width: 760px){
+	.wrapper {
+		min-width: 1200px;
+		background-color: #222;
+	}
 }
