@@ -63,7 +63,6 @@ table {
 .wrapper {
 	padding: 1px 0px 0px 0px;
 	background-color: #222;
-	max-width: 759px;
 }
 
 nav {
@@ -183,7 +182,7 @@ h1 {
 /* background needs to be beige, full photo */
 #aboutus {
 	position: absolute;
-	top: 1080px;
+	top: 1075px;
 	background-color: #ffe6ac;
 	max-width: 759px;
 	margin: 48px 0px 0px 0px;
@@ -218,7 +217,7 @@ h1 {
 #services {
 	background-color: white;
 	position: relative;
-	top: 680px;
+	top: 650px;
 }
 
 .ourservices {
@@ -453,7 +452,7 @@ h1 {
 /* text infront of image with learn more button */
 .vision img {
 	position: relative;
-	margin: 690px 0px 0px 0px;
+	margin: 670px 0px 0px 0px;
 	height: 280px;
 	width: 759px;
 	object-fit: cover;
@@ -699,9 +698,18 @@ footer p {
 
 /* desktop vers. */
 /* max width of container needs to be 1200px, mid width media query will be 760px and up */
-@media screen and (mid-width: 760px){
+@media screen and (min-width: 760px){
+	.container {
+		max-width: 1200px;
+		margin-inline: auto;
+	}
+
 	.wrapper {
-		min-width: 1200px;
-		background-color: #222;
+		width: 100%;
+		height: auto;
+	}
+
+	.heading img {
+		width: 100%;
 	}
 }
