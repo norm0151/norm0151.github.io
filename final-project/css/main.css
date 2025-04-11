@@ -628,7 +628,6 @@ button {
 	margin: 0px 15px 0px 15px;
 }
 
-
 .hours h2 {
 	font-weight: bold;
 	font-size: 30px;
@@ -643,24 +642,27 @@ table {
 
 thead th {
 	padding: 17px;
-
+	background-color: #ffe6ac;
 }
 
+/* make the table equally even, split down middle */
 table, th, td {
 	border: 1px solid #222;
 	width: 100%;
+	font-size: 15px;
+	table-layout: fixed;
 }
 
-.components td {
-	padding: 10px;
+.components td{
+	padding: 17px 0px 17px 15px;
 }
-
-
-
-
-
-
 
 /* location */
+
+
+
+
+
+
 
 /* footer */
