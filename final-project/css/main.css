@@ -609,6 +609,21 @@ h1 {
 	height: 140px;
 }
 
+/* send button will be back with orange text */
+button {
+	background-color: #222;
+	color: #c78c06;
+	margin: 0px 0px 0px 15px;
+	position: relative;
+	bottom: 55px;
+	font-size: 20px;
+	padding: 4px;
+}
+
+
+
+
+
 
 /* hours of operation */
 
