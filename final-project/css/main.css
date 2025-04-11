@@ -653,16 +653,32 @@ table, th, td {
 	table-layout: fixed;
 }
 
-.components td{
+tbody td{
 	padding: 17px 0px 17px 15px;
 }
 
 /* location */
+.location {
+	margin: 15px;
+}
 
+.location h2 {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 0px 0px 15px 0px;
+}
 
-
-
-
-
+/* embedded map needs to be width 100% */
+.contact-map {
+	width: 100%;
+	height: 460px;
+}
 
 /* footer */
+footer {
+	background-color: #222;
+	color: #c78c06;
+	padding: 50px 0px 15px 15px;
+}
+
+.copyright {
