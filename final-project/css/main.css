@@ -54,7 +54,6 @@ table {
 /* open sans font will be applied to all */
 .container {
     font-family: "Open Sans", sans-serif;
-	max-width: 759px;
 	align-content: center;
 }
 
@@ -704,6 +703,13 @@ footer p {
 		max-width: 1200px;
 		margin-inline: auto;
 	}
-
   
+	.wrapper {
+		width: 100vw;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		left: 50%;
+		right: 50%;
+		position: relative;
+	}
 }
