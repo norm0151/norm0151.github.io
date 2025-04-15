@@ -695,6 +695,10 @@ footer p {
 	padding: 8px 0px 0px 0px;
 }
 
+footer a:link {
+	text-decoration: underline;
+}
+
 /* desktop vers. */
 /* max width of container needs to be 1200px, mid width media query will be 760px and up */
 @media screen and (min-width: 760px){
@@ -706,12 +710,12 @@ footer p {
 /* nav/heading  */
 /* wrapper and image both need to bleed out of the container */
 	.wrapper {
+		position: relative;
 		width: 100vw;
 		margin-left: -50vw;
 		margin-right: -50vw;
 		left: 50%;
 		right: 50%;
-		position: relative;
 	}
 
 /* nav needs to go in a horizontal line, home's orange background needs shrink */
@@ -722,12 +726,13 @@ ul {
 
 /* bleed footer */
 footer {
+	position: relative;
 	width: 100vw;
-		margin-left: -50vw;
-		margin-right: -50vw;
-		left: 50%;
-		right: 50%;
-		position: relative;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	left: 50%;
+	right: 50%;
 }
 
 }
+/* im sorry i gave up trying to do the desktop ver */
