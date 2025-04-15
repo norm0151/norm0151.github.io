@@ -1,4 +1,3 @@
-/* css is not my strong suit and it hurts to do it */
 /* reset css */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -704,6 +703,8 @@ footer p {
 		margin-inline: auto;
 	}
   
+/* nav/heading  */
+/* wrapper and image both need to bleed out of the container */
 	.wrapper {
 		width: 100vw;
 		margin-left: -50vw;
@@ -712,4 +713,21 @@ footer p {
 		right: 50%;
 		position: relative;
 	}
+
+/* nav needs to go in a horizontal line, home's orange background needs shrink */
+ul {
+	position: relative;
+	display: flex;
+}
+
+/* bleed footer */
+footer {
+	width: 100vw;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		left: 50%;
+		right: 50%;
+		position: relative;
+}
+
 }
